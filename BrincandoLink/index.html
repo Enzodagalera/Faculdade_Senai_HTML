@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Felipe Barbosa">
+    <meta name="description" content="Exemplo de listas em HTML">
+    <meta name="keywords" content="HTML, listas, ordenada, não ordenada, descrição">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav id="Navegador">
+    <div>
+        <h1 id="Inicio">Menu</h1>
+        <ul id="CentroLista">
+            <li><a href="#Ordenada">Lista Ordenada</a></li>
+            <li><a href="#Nao-Ordenada">Lista Não Ordenada</a></li>
+            <li><a href="#Tipos-Lista-Ordenada">Tipos De Listas Ordenadas</a></li>
+            <li><a href="#Tipos-Lista-Nao-Ordenada">Diferentes Tipos De Listas Não Ordenadas</a></li>
+            <li><a href="#Descricao">Lista de Descrição</a></li>
+        </ul>
+    </div>
+</nav>
+
+<body>
+
+    <h1 class="Centro">Listas</h1>
+
+    <section id="Ordenada">
+        <h2>Lista Ordenada</h2>
+        <ol>
+            <li>Abacaxi</li>
+            <li>Limão</li>
+            <li>Laranja
+                <ol>
+                    <li>Pera</li>
+                    <li>Bahia</li>
+                </ol>
+            </li>
+        </ol>
+    </section>
+
+    <section id="Nao-Ordenada">
+        <h2>Lista Não Ordenada</h2>
+        <ul>
+            <li>Abacaxi</li>
+            <li>Limão</li>
+            <li>Laranja
+                <ul>
+                    <li>Pera</li>
+                    <li>Bahia</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Tipos-Lista-Ordenada">
+        <h2>Diferentes tipos de listas ordenadas</h2>
+        <ol type="tipos">
+            <li>Morango</li>
+            <li>Maçã
+                <ol type="i">
+                    <li>Vermelha</li>
+                    <li>Verde</li>
+                </ol>
+            </li>
+            <li>Cereja</li>
+        </ol>
+    </section>
+
+    <section id="Tipos-Lista-Nao-Ordenada">
+        <h2>Diferentes Tipos De Listas Não Ordenadas</h2>
+        <ul type="circle">
+            <li>Morango</li>
+            <li>Maçã
+                <ul type="square">
+                    <li>Vermelha</li>
+                    <li>Verde</li>
+                </ul>
+            </li>
+            <li>Cereja</li>
+        </ul>
+    </section>
+
+    <section id="Descricao">
+        <h2>Lista de Descrição</h2>
+        <dl>
+            <dt>Abacaxi</dt>
+            <dd>Fruta ácida de tom amarelado e casca dura.</dd>
+            <dt>Limão</dt>
+            <dd>Fruta ácida e azeda de tom verde.</dd>
+            <dt>Laranja</dt>
+            <dd>Fruta ácida de cor laranja e doce.</dd>
+        </dl>
+    </section>
+
+    <footer>
+        <a href="#Inicio"><h2 id="Fim">Subir Para O Topo Do Site</h2>
+        </a>
+    </footer>
+
+</body>
+
+</html>
